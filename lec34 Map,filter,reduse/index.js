@@ -103,5 +103,3 @@ arrCopy.pop()
 
 console.log("arr4",arr4 );
 console.log("arrCopy",arrCopy );
-
-
