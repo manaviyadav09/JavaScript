@@ -1,19 +1,19 @@
 
-let originalPrice = [463, 654, 2346]
+// let originalPrice = [463, 654, 2346]
 
-let discountedPrice = []
+// let discountedPrice = []
 
 // for (value of originalPrice) {
-    //     // let discount = value * 10 / 100
-    //     // discountedPrices.push(value  - discount) // 10% discount
-    // discountedPrice.push(value * 0.9)   // 10% discount
+//     // let discount = value * 10 / 100
+//     // discountedPrices.push(value  - discount) // 10% discount
+// discountedPrice.push(value * 0.9)   // 10% discount
 // }
 
 
 
-originalPrices.forEach((value) => {
-    discountedPrices.push(value * 0.9) // 10% discount
-})
+// originalPrices.forEach((value) => {
+//     discountedPrices.push(value * 0.9) // 10% discount
+// })
 
 
 // console.log(originalPrice);
@@ -21,32 +21,32 @@ originalPrices.forEach((value) => {
 
 
 
-const discountedPrices2 = originalPrices.map((value) => value * 0.9)
+// const discountedPrices2 = originalPrices.map((value) => value * 0.9)
 
 // console.log(discountedPrices2);
 
-let students = [
-    {
-        name: "Ayaan",
-        marks: 56,
-    },
-    {
-        name: "Mansi",
-        marks: 46,
-    },
-    {
-        name: "Debadrita",
-        marks: 33,
-    },
-    {
-        name: "Shivan",
-        marks: 30,
-    },
-    {
-        name: "Alauddin",
-        marks: 28
-    }
-]
+// let students = [
+//     {
+//         name: "Ayaan",
+//         marks: 56,
+//     },
+//     {
+//         name: "Mansi",
+//         marks: 46,
+//     },
+//     {
+//         name: "Debadrita",
+//         marks: 33,
+//     },
+//     {
+//         name: "Shivan",
+//         marks: 30,
+//     },
+//     {
+//         name: "Alauddin",
+//         marks: 28
+//     }
+// ]
 
 // let studentNames = []
 
@@ -54,8 +54,8 @@ let students = [
 //     studentNames.push(value.name)
 // })
 
-const studentNames = students.map((student) => student.name)
-const studentMarks = students.map((student) => student.marks)
+// const studentNames = students.map((student) => student.name)
+// const studentMarks = students.map((student) => student.marks)
 
 // console.log(studentNames, studentMarks);
 
@@ -63,7 +63,7 @@ const studentMarks = students.map((student) => student.marks)
 //     return {...student , marks : student.marks + 10}
 // })
 
-let boostedMarks = students.map(student => ({ ...student, marks: student.marks + 10 }))
+// let boostedMarks = students.map(student => ({ ...student, marks: student.marks + 10 }))
 // let boostedMarks = students.map(student => student.marks < 33)  // [ false, false, false, true, true ]
 
 // console.log(boostedMarks);
@@ -77,16 +77,16 @@ let boostedMarks = students.map(student => ({ ...student, marks: student.marks +
 //     }
 // })
 
-const failedStudents = students.filter((student) => student.marks < 33).map((student) => student.name)  // [ { name: 'Shivan', marks: 30 }, { name: 'Alauddin', marks: 28 } ]
+// const failedStudents = students.filter((student) => student.marks < 33).map((student) => student.name)  // [ { name: 'Shivan', marks: 30 }, { name: 'Alauddin', marks: 28 } ]
 
 //filter ak use krke agar hmko names hi dikhane h marks nhi to sir
 // const failedStudentsName  = failedStudents.map((student) => student.name) 
 // console.log(failedStudents );
 
 
-let marks = [56, 24, 62, 73, 78]
+// let marks = [56, 24, 62, 73, 78]
 
-let totalMarks = 0
+// let totalMarks = 0
 
 // marks.forEach((mark) => totalMarks = totalMarks + mark)
 
@@ -113,15 +113,14 @@ const attendence = ["present", "present", "absent", "present", "absent"]
 
 // })
 
-// console.log(obj);
+// console.log(obj); 
 
 
 // by reduce
 
 const obj = attendence.reduce((acc, value) => {
-    acc[value] = (acc[value] || 0) + 1 ;
+    acc[value] = (acc[value] || 0) + 1;
     return acc
 }, {})
 
 console.log(obj);
-
