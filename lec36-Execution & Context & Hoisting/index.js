@@ -58,9 +58,9 @@
 
 let a = 10;
 
-function gun(){
+function fun(){
     console.log(a);
     // let a  = 6; 
 }
 
-gun()
+fun()

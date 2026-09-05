@@ -1,7 +1,7 @@
 
-function outter () {
+function outter() {
     let a = 6;
-    function inner(){
+    function inner() {
         console.log(a);
         let a = 7;
     }
@@ -58,7 +58,7 @@ function outter() {
 }
 const counter1 = outter();
 const counter2 = outter();
-// counter1();
-// counter2();
-// counter2();
-// counter2();  
+counter1();
+counter2();
+counter2();
+counter2();  
