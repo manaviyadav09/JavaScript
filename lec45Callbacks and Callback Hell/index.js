@@ -24,15 +24,6 @@
 //     return b
 // }
 
-
-
-
-
-
-
-
-
-
 function searchPizza(a) {
     console.log("Pizza searching...");
     setTimeout(function fun1() {
